@@ -1,0 +1,11 @@
+*/Library/
+
+*/Temp/
+
+*/Logs/
+
+.vs
+
+
+*.csproj 
+*.sln

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc1b49e576b6c8f46998d56a6f71604e, type: 3}
+  m_Name: WaterBombFXComponent
+  m_EditorClassIdentifier: Assembly-CSharp::SkillFXSequenceSO
+  SkillActivationFX: {fileID: 1581428884890427476, guid: 7109751346059d6409fa1fc631d02f6f, type: 3}
+  SkillActivationDuration: 0.5
+  SkillBuildUpFX: {fileID: 700627724382725367, guid: 6cafb5ec35c8ef54d86e5231a88812f2, type: 3}
+  SkillBuildUpDuration: 0.5
+  Projectile: {fileID: 6407487224093874875, guid: 2479e5b4ca8dfea438dba6f543fcdf89, type: 3}
+  ProjectileDuration: 1.5
+  ProjectileSpeed: 20
+  LauchFX: {fileID: 2278449968205739955, guid: e0b6973ead2d95840b0506d2e14530e9, type: 3}
+  HitFeedBackFX: {fileID: 3519475527625087967, guid: bcde378376cec5644b6a261537413a82, type: 3}
+  ColorRamp:
+  - {fileID: 21300000, guid: b1d8bd662569b954aa5d11e1d9be6cb9, type: 3}
+  - {fileID: 21300000, guid: 2a87836ad25ed9e4782fdab47511d380, type: 3}
+  - {fileID: 21300000, guid: 469b37b3580dc894f855fd392b2f3572, type: 3}
+  Materials:
+  - {fileID: 2100000, guid: faee4fadce713ee419291c69a984398c, type: 2}
+  - {fileID: 2100000, guid: 77948dd08e10aee4f91ec90d18dc27c0, type: 2}
+  - {fileID: 2100000, guid: c8662b2b7c02e514da7f784c127f709b, type: 2}
+  - {fileID: 2100000, guid: ded30fa430f125f4593dcbad3a1fd91e, type: 2}
+  - {fileID: 2100000, guid: 0bb32bc369eccbf4a875ccb11b545238, type: 2}
+  - {fileID: 2100000, guid: 0bb32bc369eccbf4a875ccb11b545238, type: 2}
+  - {fileID: 2100000, guid: 1deacecda642129489b50391367851fe, type: 2}
